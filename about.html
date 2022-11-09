@@ -13,7 +13,7 @@
   <body>
     <!--Header-->
     <header>
-      <nav class="navbar navbar-expand-lg bg-navbar">
+      <div class="navbar navbar-expand-lg bg-navbar">
         <div class="container-fluid">
           <img src="Images/MasielVera-LogoPNG.png" alt="Masiel Vera">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
             </div>
           </div>
         </div>
-      </nav>
+      </div>
     </header>
     <!--Fin Header-->
 
@@ -38,31 +38,47 @@
       <h1>ABOUT</h1>
   </section>
   <!--About me-->
-  <section>
-      <nav>
-          <img src="Images/AboutMeDay.jpg" alt="About me Masiel Vera">
-          <p>
-              My name is Masiel Vera, I am a nature photographer based in Colombia. My passion for photography began as a hobby a few years ago and grew with each trip I made to connect with nature and her surroundings.
-              When I had my first semi-professional camera I knew that I wanted to gain experience and polish my eye to portray what I was seeing, I took courses and participated in workshops that helped me train and obtain better photographs.
-              From there, my spirit of adventure and passion for photography has grown, which has led me to want to teach and share this passion with people who want to follow this path.
-              ¡Join the adventure!
+ 
 
-          </p>
-      </nav>
-  </section>
+
+  <div class="about">
+    <img class="izquierda" src="Images/AboutMeDay.jpg" alt="About me Masiel Vera">
+    <aside>
+      <p>
+      My name is Masiel Vera, I am a nature photographer based in Colombia. My passion for photography began as a hobby a few years ago and grew with each trip I made to connect with nature and her surroundings.
+      When I had my first semi-professional camera I knew that I wanted to gain experience and polish my eye to portray what I was seeing, I took courses and participated in workshops that helped me train and obtain better photographs.
+      From there, my spirit of adventure and passion for photography has grown, which has led me to want to teach and share this passion with people who want to follow this path.
+      ¡Join the adventure!</p></aside>
+    <div class="reset"></div>
+  </div>
+  
   <!--Contact me-->
-  <section>
-      <nav>
-          <h2>CONTACT ME</h2>
-          <img src="Images/AboutMeNight.JPG" alt="Contact me Masiel Vera">
-          <p>
-              For more information, please do not hesitate to contact me.
-          </p>
-      </nav>
-  </section>
+
+  <div class="about">
+    <img class="derecha" src="Images/AboutMeNight.JPG" alt="Contact me Masiel Vera">
+    <aside>
+      <h2>CONTACT ME</h2>
+       <p>For more information, please do not hesitate to contact me.</p>
   <!--Form-->
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <button type="button" class="btn btn-light">Send</button>
 
   <!--Fin Contact me-->
+    </aside>
+    <div class="reset"></div>
+  </div>
+
+
+
+
     <!--Fin Main-->
 
     <!--Footer-->
